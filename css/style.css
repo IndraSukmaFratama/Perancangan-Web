@@ -1,0 +1,61 @@
+* {
+    color: white ;
+}
+nav {
+    border-bottom: 2px solid #364f6b;
+    background-color: black;
+    color: white;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    color: yellowgreen !important;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+h2 {
+    color: #364f6b ;
+}
+
+.pembatas {
+    border-top: 2px solid #364f6b;
+}
+
+.bungkus {
+    margin: 30px auto;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bungkus .foto img {
+    width: 330px;
+    height: 300px;
+    margin-top: 10px;
+    border:1px solid yellowgreen;
+}
+
+
+.bungkus img {
+    width: auto;
+    height: 400px;
+}
+
+.bungkus2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#icon{
+    font-size:37px;
+    margin-top:20px;
+    position:static;
+  }
